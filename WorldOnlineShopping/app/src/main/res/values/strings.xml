@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">عالم التسوق</string>
+    <string name="app_name_full">عالم التسوق الالكتروني</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sizes">القياسات</string>
+    <string name="buy">شراء</string>
+    <string name="search">search</string>
+    <string name="related">ذات صلة</string>
+    <string name="basket">السلة</string>
+    <string name="send">ارسال الطلب</string>
+    <string name="confirm">تاكيد الطلب</string>
+    <string name="color">اختر اللون الذي تريده</string>
+    <string name="size">اختر القياس الذي تريده</string>
+    <string name="num">ادخل عدد الذي تريد شرائه</string>
+    <string name="hint_place">الرجاء القيام بكتابة اقرب نقطة دالة لعنوانك بشكل دقيق لكي يسهل توصيل الطلبية اليك</string>
+    <string name="place">اقرب نقطة دالة لعنوانك</string>
+    <string name="phone_req">رقم هاتفك</string>
+    <string name="delete">delete</string>
+    <string name="logos">الماركات</string>
+    <string name="badge">badge</string>
+    <string name="about">عالم التسوق الالكتروني:
+    هو تطبيق  لتقديم خدمة التسوق الألكتروني والتوصيل الى المنازل. انطلق المشروع في سنة 2017 وتم تصميمه على ايادي خبرات عراقية متخصصة في مجال تطوير البرمجيات والمواقع.
+    عالم التسوق الالكتروني موقع يعتمد على استيراد المواد من اشهر الماركات العالميه وشراء من اشهر التجار ضمن مجال عملهم لتوفير انسب الاسعار ضمن خدمه التوصيل السريعه</string>
+    <string-array name="item_names">
+        <item>تسجيل الدخول</item>
+        <item>الماركات</item>
+        <item>اسعار التوصيل</item>
+        <item>شارك التطبيق</item>
+        <item>حول التطبيق</item>
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="want_num">ادخل العدد الذي تريد شرائه</string>
+    <string name="sorry">عذرا انت غير متصل بالانترنت</string>
+    <string name="retry">اعد المحاولة</string>
+    <string name="please">يرجى اعادة المحاولة</string>
+</resources>

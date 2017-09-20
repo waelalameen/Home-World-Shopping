@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_final"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.wael.alameen.worldonlineshopping.FinalActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:theme="@style/MyDrawerArrowToggle"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:text="@string/confirm"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bar"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="الاسم"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="right"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/place"
+            android:text="النقطة الدالة"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="right"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"
+            android:text="رقم الهاتف"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="right"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/place"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/city"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/phone">
+
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/total"
+            android:text="المجموع النهائي : "
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="right"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/city"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ok"
+            android:text="@string/confirm"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/total"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

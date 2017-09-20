@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hint"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="right"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/go"
+            android:text="تسجيل الدخول"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/hint"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/close"
+            android:text="اغلاق"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/go"/>
+
+    </RelativeLayout>
+</LinearLayout>

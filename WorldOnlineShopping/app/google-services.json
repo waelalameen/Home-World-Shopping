@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "589058470965",
+    "firebase_url": "https://world-home-shopping.firebaseio.com",
+    "project_id": "world-home-shopping",
+    "storage_bucket": "world-home-shopping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589058470965:android:57606854919c1c7d",
+        "android_client_info": {
+          "package_name": "com.wael.alameen.worldonlineshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589058470965-47nl1vatcevhuin47hptsirsp2pl7ft4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDANaqYDlKMUqZE_d_Y8Wa_v-b83Tp_qak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

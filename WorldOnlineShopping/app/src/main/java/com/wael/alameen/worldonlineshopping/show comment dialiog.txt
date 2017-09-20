@@ -1,0 +1,29 @@
+    private void showCommentDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = getLayoutInflater();
+        View view = inflater.inflate(R.layout.adding_comments_layout, null);
+        builder.setView(view);
+        final Dialog dialog = builder.create();
+        dialog.setContentView(view);
+        AutoCompleteTextView add = (AutoCompleteTextView) dialog.findViewById(R.id.add_comment);
+        Button post = (Button) dialog.findViewById(R.id.post);
+
+        ChangeTypeface.setTypeface(this, add);
+        ChangeTypeface.setTypeface(this, post);
+
+        Display display = getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+
+        dialog.getWindow().setLayout(size.x, size.y - 600);
+        dialog.show();
+
+        dialog.setOnDismissListener(dialogInterface -> {
+            makeAnimation("fbclose", fabView);
+            makeAnimation("ccw", fabView);
+            contentLayout.setAlpha(1);
+            askTextView.setVisibility(View.GONE);
+            recyclerView.setAdapter(new MyAdapter(MainActivity.this, questionList, true));
+            isOpen = false;
+        });
+    }
